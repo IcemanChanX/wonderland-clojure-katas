@@ -38,7 +38,7 @@
     )
   )
 
-(defn decypher [cypher message]
+(defn decipher [cypher message]
   (def a (atom 1))
 
   (def decyphered (apply str
